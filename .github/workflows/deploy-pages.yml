@@ -37,7 +37,6 @@ jobs:
 
       - name: Build static export
         env:
-          GITHUB_ACTIONS: true
           NEXT_PUBLIC_BASE_PATH: ""
         run: npm run build
 
