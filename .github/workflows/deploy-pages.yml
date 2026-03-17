@@ -38,6 +38,7 @@ jobs:
       - name: Build static export
         env:
           GITHUB_ACTIONS: true
+          NEXT_PUBLIC_BASE_PATH: /mallikaJohn
         run: npm run build
 
       - name: Disable Jekyll
